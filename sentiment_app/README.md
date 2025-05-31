@@ -1,4 +1,6 @@
 🧠 Sentiment Analyzer App
+
+
 Esta es una aplicación web simple que usa inteligencia artificial (Naive Bayes) para clasificar el sentimiento de un texto como positivo o negativo.
 
 🚀 Cómo ejecutar

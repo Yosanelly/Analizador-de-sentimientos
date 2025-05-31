@@ -8,16 +8,20 @@ Esta es una aplicación web simple que usa inteligencia artificial (Naive Bayes)
 bash
 git clone <URL_DEL_REPOSITORIO>
 cd sentiment-analyzer-app
+
+
 2️⃣ Instalar dependencias
 Ejecuta el siguiente comando para instalar las librerías necesarias:
 
 bash
 npm install
+
 3️⃣ Ejecutar el servidor
 Inicia la aplicación con:
 
 bash
 node server.js
+
 4️⃣ Acceder a la aplicación
 Abre tu navegador en:
 

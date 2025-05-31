@@ -1,35 +1,27 @@
-# 🧠 Sentiment Analyzer App
+🧠 Sentiment Analyzer App
+Esta es una aplicación web simple que usa inteligencia artificial (Naive Bayes) para clasificar el sentimiento de un texto como positivo o negativo.
 
-Esta es una aplicación web simple que usa inteligencia artificial (Naive Bayes) para clasificar el sentimiento de un texto como **positivo** o **negativo**.
+🚀 Cómo ejecutar
+1️⃣ Clonar el repositorio
+bash
+git clone <URL_DEL_REPOSITORIO>
+cd sentiment-analyzer-app
+2️⃣ Instalar dependencias
+Ejecuta el siguiente comando para instalar las librerías necesarias:
 
-## 🚀 Cómo ejecutar
+bash
+npm install
+3️⃣ Ejecutar el servidor
+Inicia la aplicación con:
 
-1. Clona el repositorio
-2. Crea un entorno virtual y activa:
-   ```
-   python -m venv venv
-   source venv/bin/activate  # o venv\Scripts\activate en Windows
-   ```
-3. Instala las dependencias:
-   ```
-   pip install flask scikit-learn
-   ```
-4. Corre el script de entrenamiento si no existe `model.pkl`:
-   ```
-   python train_model.py
-   ```
-5. Ejecuta la app:
-   ```
-   python app.py
-   ```
-6. Abre tu navegador en [http://localhost:5000](http://localhost:5000)
+bash
+node server.js
+4️⃣ Acceder a la aplicación
+Abre tu navegador en:
 
-## 🛠️ IA usada
+http://localhost:3000
 
-- Algoritmo: Naive Bayes
-- Dataset: Ejemplos manuales
-- Librerías: scikit-learn, CountVectorizer
-
----
+🛠️ Inteligencia Artificial usada
+🔹 Algoritmo: Naive Bayes 🔹 Dataset: Ejemplos manuales 🔹 Librerías: Express, Natural (para procesamiento de lenguaje)
 
 ¡Explora cómo tu texto es clasificado por una mini IA! 😄
